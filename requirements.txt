@@ -1,0 +1,14 @@
+dj-rest-auth
+Django
+django-allauth
+django-cors-headers
+django-debug-toolbar
+django-filter
+djangorestframework
+djangorestframework-simplejwt
+drf-nested-routers
+drf-spectacular
+drf-yasg
+gunicorn
+whitenoise
+Pillow
