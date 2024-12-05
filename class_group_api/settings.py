@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-u5*+1rg&4_1=a_#5jpb=-6b0pzwv81eyq38o0o!$-ap=c29^ql"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["classgroupapi.onrender.com","*"]
 
@@ -121,6 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = "static/"
+STATIC_ROOT=os.path.join(BASE_DIR,'static')
 MEDIA_URL='media/'
 STATIC_MEDIA=os.path.join(BASE_DIR,'media')
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
